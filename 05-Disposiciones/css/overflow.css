@@ -1,0 +1,43 @@
+.contenedor-hidden {/*Este oculta lo que se sale del contenedor*/
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contenedor-scroll {/*Crea una barra de scroll para ver lo que sobresale del contenedor*/
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.contenedor-visible {/*Pues aunque se salga lo muestra es el que viene por defecto*/
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+.contenedor-auto { /*Este solo pone las barras de scroll en el eje necesario, y scroll lo hace en ambas*/
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
