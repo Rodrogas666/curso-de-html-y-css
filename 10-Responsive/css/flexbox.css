@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    gap: 0.5rem;
+    background-color: yellow;
+    padding: 0.25rem;
+    min-height: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /*Eje x usa justify*/
+    /*Eje y usa align*/
+    /*flex-direction: column;/*El eje principal es y*/
+    /*Por defecto lo pone en línea flex aparte que usa todo el espacio para abajo, pero si cambias a columna usa el horizontal*/
+}
+
+.item {
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2 {
+    /*Streth estira*/
+    align-self: stretch;
+    /*Con este modificás a un único elemento del contenedor padre*/
+}
+
+/* https://codepen.io/enxaneta/full/adLPwv */
